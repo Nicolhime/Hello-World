@@ -1,19 +1,12 @@
-package main
+package stringconversion
 
 import (
-	"fmt"
 	"strconv"
 )
 
-func main() {
+func Printer(x int) string {
 
-	fmt.Println(printer(123))
-
-}
-
-func printer(x int) string {
-
-	var y string = strconv.Itoa(x)
+	y := strconv.Itoa(x)
 
 	return y
 }
