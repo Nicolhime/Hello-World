@@ -15,3 +15,11 @@ This is great
 - git reset --hard (remove all changes without saving)
 - git switch -c "some-branch-name" (create a new branch and switch to it)
 - git checkout branch-name (switch to another branch)
+
+## common git workflow
+- switch to a new/existing branch
+- make changes to files
+- commit
+- push
+- create a PR
+- merge / squash and merge into main
